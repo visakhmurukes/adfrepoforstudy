@@ -1,0 +1,9 @@
+{
+	"name": "adfinstforstudy",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e581160f-4449-40b6-9b42-588da656db37",
+		"tenantId": "e0c4c723-d57c-44d9-b677-904624670b5a"
+	}
+}
