@@ -1,0 +1,29 @@
+{
+	"name": "webapi",
+	"properties": {
+		"activities": [
+			{
+				"name": "Web1",
+				"type": "WebActivity",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"url": "https://reqres.in/api/users/10",
+					"method": "GET",
+					"body": {
+						"name": "morpheus",
+						"job": "leader"
+					}
+				}
+			}
+		],
+		"annotations": []
+	}
+}
